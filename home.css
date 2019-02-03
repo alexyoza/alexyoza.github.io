@@ -1,0 +1,102 @@
+body{
+  margin:0px;
+}
+
+.header{
+ background-image: url(background.jpg);
+ font-weight:bold;
+}
+
+.headerText{
+  text-align: center;
+  color:white;
+  font-family:arial;
+  font-size:40px;
+}
+
+.about{
+  position: absolute;
+  top:50px;
+  left:40px;
+  float:left;
+  color:white;
+  font-family:arial;
+  font-size:30px;
+  display:block-inline;
+}
+
+.contact{
+  position: absolute;
+  top:50px;
+  right:40px;
+  float:right;
+  color:white;
+  font-family:arial;
+  font-size:30px;
+  display:block-inline;
+}
+
+.aboutDescription{
+  clear:both;
+  color:black;
+  font-size:14;
+  font-family:OCR A Std, monospace;
+  border:5px solid black;
+  display: block;
+  width:300px;
+  margin:auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.s{
+  font-size:30px;
+  font-family: Snell Roundhand;
+}
+
+.items{
+  list-style: none;
+
+  font-size:20px;
+  font-weight:bold;
+}
+
+.itemBox{
+  border:2px solid black;
+  display: inline-block;
+  float:left;
+  margin: 5px 5px;
+  height:350px;
+  width:250px;
+  color:white;
+}
+
+.itemImg{
+  alt:"no image"
+  height:300px;
+  width:250px;
+}
+
+.itemInfoImg{
+  clear:both;
+  margin: 5px 10px 10px 0px;
+  float:left;
+  alt:"no image"
+  height:600px;
+  width:500px;
+  border:1px solid white;
+  display:inline-block;
+}
+
+.itemDescription{
+  float:left;
+  position:relative;
+  left:5px;
+  border:1px solid white;
+  display:inline;
+}
+
+#link{
+   color:black;
+   text-decoration:none;
+}
